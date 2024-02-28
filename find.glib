@@ -1,17 +1,17 @@
 ##OpenGL GLIB
 Perspective 70
-LookAt  10 10 10  0 0 0  0 1 0
+LookAt  30 30 30  0 0 0  0 1 0
 
 Vertex   find.vert
 Fragment find.frag
 Program  FindXYZ  				\
-			aspectRatio <.1 5. 1.77>		\
-			zoom <.1 10. 1.>		\
-			offset <-2. 2. 0.>		\
-			vLightIntensity <.1 10. 1.>		\
+			aspectRatio <0.0 3.0 1.77>		\
+			zoom <0.1 100.0 1.0>		\
+			offsetX <-10.0 10.0 0.>		\
+            offsetY <-10. 10. 0.>   \
+			vLightIntensity <0.1 10.0 5.0>		\
+            maxIterations <0 50 50>
 
-Color 1. 1. 1.
+Color 0. 0. 0.
 Obj dragon.obj
-#Teapot
-#Sphere
  
